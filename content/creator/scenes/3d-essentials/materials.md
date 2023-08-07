@@ -102,7 +102,7 @@ let green = Color3.Random()
 If you prefer to specify a color using hexadecimal values, as is often done in JavaScript web development, you can do so using the `.FromHexString()` function
 
 ```ts
-let gray = Color3.FromHexString("#CCCCCCC")
+let gray = Color3.FromHexString("#CCCCCC")
 ```
 
 The `Color3` object also includes a lot of other functions to add, substract, compare, lerp, or convert the format of colors.

@@ -337,7 +337,6 @@ textInput.vAlign = "bottom"
 textInput.hAlign = "center"
 textInput.fontSize = 10
 textInput.placeholder = "Write message here"
-textInput.placeholderColor = Color4.Gray()
 textInput.positionY = "200px"
 textInput.isPointerBlocker = true
 
@@ -429,7 +428,5 @@ close.onClick = new OnPointerDown(() => {
   canvas.isPointerBlocker = false
 })
 ```
-````
-
 
 See [color types]({{< ref "/content/creator/sdk7/3d-essentials/color-types.md" >}}) for more details on how to set colors.
